@@ -2,7 +2,7 @@
 sidebar_position: 2
 slug: su-dung-ssh-client
 title: "Cấu hình và sử dụng SSH client"
-description: "Hướng dẫn từng bước cài đặt, cấu hình SSH client"
+description: "Hướng dẫn cách cấu hình và sử dụng SSH Client trên các hệ điều hành Linux và macOS"
 ---
 
 ## Tổng Quan
@@ -15,7 +15,7 @@ SSH Client là công cụ cho phép bạn kết nối đến máy chủ từ xa 
 
 ---
 
-## 1. Kiểm Tra Cài Đặt SSH Client
+## Kiểm Tra Cài Đặt SSH Client
 
 Trên hầu hết các hệ điều hành Linux và macOS, OpenSSH Client thường được cài đặt sẵn. Kiểm tra phiên bản hiện tại bằng lệnh:
 
@@ -25,7 +25,7 @@ ssh -V
 
 Nếu chưa có, bạn có thể cài đặt theo hướng dẫn dành cho hệ điều hành của bạn.
 
-## 2. Tạo Cặp Khóa SSH (Nếu Cần)
+## Tạo Cặp Khóa SSH (Nếu Cần)
 
 Nếu bạn chưa có cặp khóa SSH, hãy tạo một cặp khóa mới bằng lệnh:
 ```bash
@@ -38,7 +38,7 @@ Sau khi hoàn thành, bạn sẽ có:
 - Private key: `~/.ssh/id_rsa`
 - Public key: `~/.ssh/id_rsa.pub`
 
-## 3. Cấu Hình File SSH Client
+## Cấu Hình File SSH Client
 
 Để quản lý các kết nối đến nhiều máy chủ dễ dàng hơn, bạn có thể tạo hoặc chỉnh sửa file cấu hình SSH Client tại `~/.ssh/config`.
 
@@ -66,7 +66,7 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/config
 ```
 
-## 4. Sử Dụng SSH Client
+## Sử Dụng SSH Client
 
 ### Kết Nối Đến Máy Chủ
 Sau khi cấu hình file `~/.ssh/config`, bạn có thể kết nối đến máy chủ bằng cách sử dụng tên định danh đã thiết lập:
@@ -85,3 +85,8 @@ Bạn có thể thực thi một lệnh trên máy chủ từ xa mà không cầ
 ```bash
 ssh myserver "ls -la /home/your_username"
 ```
+
+## Khắc Phục Sự Cố
+- **Lỗi xác thực**: Kiểm tra lại file ~/.ssh/config và đảm bảo rằng đường dẫn đến IdentityFile đúng.
+- **Quyền truy cập**: Đảm bảo thư mục ~/.ssh và các file chứa khóa có quyền truy cập đúng (700 cho thư mục, 600 cho các file).
+- **Kết nối**: Kiểm tra xem địa chỉ máy chủ và cổng kết nối có đúng không.

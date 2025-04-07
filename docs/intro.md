@@ -1,47 +1,16 @@
 ---
 sidebar_position: 1
+title: "Đôi lời về góc Tutorials "
 ---
 
-# Giới thiệu về Tutorials
+# Tutorials – Góc "tâm linh" dành cho dân cày hạ tầng
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Chào mừng bạn đến với Tutorials – nơi bạn không chỉ học cách `deploy mà không toang`, mà còn hiểu sâu sắc vì sao prod hay "lên dĩa" mỗi thứ Hai đầu tuần.
 
-## Getting Started
+Tại đây, chúng tôi chia sẻ những `kinh nghiệm thật – lỗi thật – bug thật` từ đời sống của những anh em đang gánh cả hạ tầng trên vai. Dù bạn là DevOps, SRE, Cloud Engineer hay chỉ đang tò mò vì nghe dân tech hay la "prod die rồi!", thì cũng sẽ tìm thấy gì đó hữu ích (hoặc ít nhất là đồng cảm 🤝).
 
-Get started by **creating a new site**.
+Chúng tôi không dạy lý thuyết trừu tượng. Mỗi bài viết ở đây là một lần "hồi sinh prod", một lần đụng Terraform trật syntax, một lần học được bài học nhớ đời sau khi `rm -rf` nhầm folder.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::tip
+**Học ít thôi cũng được, nhưng học thực tế, học có muối, học để sống sót.**
+:::
