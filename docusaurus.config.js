@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.culiops.dev',
+  url: 'https://www.culiops.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'culiops', // Usually your GitHub org/user name.
-  projectName: '', // Usually your repo name.
+  projectName: 'cookbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -92,7 +92,7 @@ const config = {
           { to: '/blog', label: 'Blogs', position: 'left' },
           { to: '/docs/guides', label: 'Guides', position: 'left' },
           {
-            href: 'https://github.com/culiops',
+            href: 'https://github.com/culiops/cookbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,8 +109,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Documents',
-                to: '/docs/intro',
+                label: 'Blogs',
+                to: '/blog',
               },
               {
                 label: 'Guides',
@@ -138,10 +138,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blogs',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/culiops',
