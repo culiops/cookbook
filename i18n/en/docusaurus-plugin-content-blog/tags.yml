@@ -1,19 +1,24 @@
 linux:
   label: Linux
   permalink: /linux
-  description: "Thế giới Linux: Nơi chim cánh cụt là biểu tượng, còn 'sudo' là câu thần chú quyền lực. Cùng khám phá mọi ngóc ngách hệ điều hành bá đạo này!"
+  description: "The Linux world: Where the penguin is an icon, and 'sudo' is a powerful spell. Let's explore every corner of this awesome operating system!"
 
 devops:
   label: DevOps
   permalink: /devops
-  description: "DevOps: Tự động hóa, hợp tác và một chút 'gia vị' hỗn loạn có kiểm soát. Nơi chúng tôi không chỉ nói về DevOps, mà còn 'sống' cùng nó!"
+  description: "DevOps: Automation, collaboration, and a bit of controlled chaos 'spice'. Where we don't just talk about DevOps, but 'live' with it!"
 
 sre:
   label: SRE
   permalink: /sre
-  description: "SRE: Giữ cho hệ thống 'sáng đèn' 24/7 là đam mê (và đôi khi là định mệnh). Nơi 'ngủ ngon' đồng nghĩa với 'không có alert'!"
+  description: "SRE: Keeping systems 'up and running' 24/7 is a passion (and sometimes destiny). Where 'sleeping well' means 'no alerts'!"
 
 cloud:
   label: Cloud
   permalink: /cloud
-  description: "Cloud: Không chỉ 'ngắm' mây, mà là chinh phục những 'đám mây' công nghệ co giãn. Khám phá sức mạnh vô hạn và... chi phí bất ngờ của điện toán đám mây!"
+  description: "Cloud: Not just 'looking at' clouds, but conquering elastic technology clouds. Explore the unlimited power and... surprising costs of cloud computing!"
+
+aws:
+  label: AWS
+  permalink: /aws
+  description: "AWS: Where cloud computing becomes reality, with unlimited scalability and flexibility. Explore the power of AWS and the creative solutions it offers!"
