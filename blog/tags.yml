@@ -17,3 +17,8 @@ cloud:
   label: Cloud
   permalink: /cloud
   description: "Cloud: Không chỉ 'ngắm' mây, mà là chinh phục những 'đám mây' công nghệ co giãn. Khám phá sức mạnh vô hạn và... chi phí bất ngờ của điện toán đám mây!"
+
+aws:
+  label: AWS
+  permalink: /aws
+  description: "AWS: Nơi mà điện toán đám mây trở thành hiện thực, với khả năng mở rộng và tính linh hoạt không giới hạn. Khám phá sức mạnh của AWS và những giải pháp sáng tạo mà nó mang lại!"
