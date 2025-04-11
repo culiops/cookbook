@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Quản trị hệ thống Linux": {
+    "message": "Quản trị hệ thống Linux",
+    "description": "The label for category Quản trị hệ thống Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: SSH": {
+    "message": "Module 1: SSH",
+    "description": "The label for category Module 1: SSH in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: SSH.link.generated-index.description": {
+    "message": "Chung ta cùng nghiên cứu về dịch vụ SSH nhé.",
+    "description": "The generated-index page description for category Module 1: SSH in sidebar tutorialSidebar"
+  }
+}
